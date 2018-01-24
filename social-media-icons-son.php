@@ -14,8 +14,8 @@ if (!defined('ABSPATH')) {
 }
 
 //Define a constante do diretório absoluto
-define('SMIS_DIRETORIO_ABSOLUTO_DO_PLUGIN', plugin_dir_path(__FILE__));
+define('PATH', plugin_dir_path(__FILE__));
 
 //Includes
-require_once(SMIS_DIRETORIO_ABSOLUTO_DO_PLUGIN.'includes/social-media-icons-son-conteudo.php');
-require_once(SMIS_DIRETORIO_ABSOLUTO_DO_PLUGIN.'includes/social-media-icons-son-opcoes.php');
+require_once(PATH.'includes/social-media-icons-son-conteudo.php');
+require_once(PATH.'includes/social-media-icons-son-opcoes.php');
